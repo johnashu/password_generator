@@ -2,7 +2,10 @@ import random
 
 def passwd(l):
     """
-    Generates a Random Password based on an inputted integer
+    Generates a Random Password based on an inputted integer.
+
+    It will create x number of lists of x length, It will then take the first character from 
+    each item in the list an concatentate it into the returned string..
     """
     allowed = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?`¬|{}_+/\.,£€¦=-"
     pass_len = l
